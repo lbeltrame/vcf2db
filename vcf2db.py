@@ -433,7 +433,6 @@ class VCFDB(object):
                                       print(k, v.__class___.__name__)
 
                                 raise e
-                    raise
         else:
             try:
                 self.engine.execute(stmt, objs)
